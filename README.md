@@ -3,9 +3,9 @@ CS3310
 
 My logisim assignments for Computer Architecture at Brooklyn College. (CS 3310) 
 
-The lab assignments for the first half of this class were done in [Logisim](http://www.cburch.com/logisim/), a cross-platform circuitry simulator written in Java. Those are what you see here.
+The lab assignments for the first half of this class were done in [Logisim](http://www.cburch.com/logisim/), a cross-platform circuitry simulator written in Java. Those are in the logisim directory. 
 
-If you're looking for my assembly code from the second half of this course, they're in the asm folder.
+The second half of the class studied 32-bit yasm assemby language. Those assignments are in the assembly directory. In there, you'll find a few subfolders, each for an assignment.
 
 - hello: Hello World in assembly #1.
 - argument: Assembly lab #2, which takes an argument and uses it.
@@ -18,5 +18,3 @@ According the developer, Logisim is no longer in development as of October 2014,
 Note that you need to run it with a flag to enable the "combinational analysis" functionality. There's [an issue on GitHub](https://github.com/reds-heig/logisim-evolution/issues/5) explaining why this is.
 
 The source for Logisim [can be downloaded from SourceForge.net](http://sourceforge.net/projects/circuit/).
-
-
