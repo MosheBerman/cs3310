@@ -1,15 +1,14 @@
-Logisim-Assignments
+CS3310
 ===================
 
 My logisim assignments for Computer Architecture at Brooklyn College. (CS 3310) 
 
 The lab assignments for the first half of this class were done in [Logisim](http://www.cburch.com/logisim/), a cross-platform circuitry simulator written in Java. Those are what you see here.
 
-If you're looking for my assembly code from the second half of this course, those are in different repositories: 
+If you're looking for my assembly code from the second half of this course, they're in the asm folder.
 
-- Hellow World in assembly #1 is [here](https://github.com/MosheBerman/Asm).
-- Assembly lab #2, which takes an argument and uses it, is [here](https://github.com/MosheBerman/assembly-params).
-
+- hello: Hello World in assembly #1.
+- argument: Assembly lab #2, which takes an argument and uses it.
 
 About Logisim:
 ---
