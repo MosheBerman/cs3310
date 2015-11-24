@@ -23,8 +23,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   </options>
   <mappings>
     <tool lib="6" map="Button2" name="Menu Tool"/>
-    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
     <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
   </mappings>
   <toolbar>
     <tool lib="6" name="Poke Tool"/>
@@ -57,14 +57,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(200,110)" to="(220,110)"/>
     <wire from="(210,160)" to="(260,160)"/>
     <wire from="(120,180)" to="(120,310)"/>
-    <wire from="(70,210)" to="(70,220)"/>
+    <wire from="(100,70)" to="(100,80)"/>
     <wire from="(50,160)" to="(70,160)"/>
-    <wire from="(120,310)" to="(130,310)"/>
-    <wire from="(10,130)" to="(10,260)"/>
     <wire from="(50,70)" to="(60,70)"/>
+    <wire from="(10,130)" to="(10,260)"/>
+    <wire from="(120,310)" to="(130,310)"/>
     <wire from="(100,230)" to="(140,230)"/>
     <wire from="(10,260)" to="(80,260)"/>
-    <wire from="(70,60)" to="(70,70)"/>
+    <wire from="(100,220)" to="(100,230)"/>
     <wire from="(200,260)" to="(210,260)"/>
     <wire from="(220,110)" to="(220,120)"/>
     <wire from="(110,260)" to="(150,260)"/>
@@ -74,44 +74,35 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(60,70)" to="(60,220)"/>
     <wire from="(140,230)" to="(140,240)"/>
     <wire from="(70,160)" to="(80,160)"/>
-    <wire from="(100,210)" to="(100,230)"/>
-    <wire from="(100,60)" to="(100,80)"/>
     <wire from="(140,90)" to="(150,90)"/>
     <wire from="(130,130)" to="(130,160)"/>
     <wire from="(10,130)" to="(80,130)"/>
     <wire from="(140,80)" to="(140,90)"/>
-    <wire from="(70,160)" to="(70,180)"/>
     <wire from="(80,110)" to="(150,110)"/>
+    <wire from="(70,160)" to="(70,180)"/>
     <wire from="(210,160)" to="(210,260)"/>
     <wire from="(70,180)" to="(120,180)"/>
     <wire from="(140,240)" to="(150,240)"/>
     <wire from="(220,120)" to="(260,120)"/>
-    <wire from="(60,70)" to="(70,70)"/>
     <wire from="(110,160)" to="(130,160)"/>
-    <wire from="(50,110)" to="(80,110)"/>
+    <wire from="(60,70)" to="(70,70)"/>
     <wire from="(80,110)" to="(80,130)"/>
+    <wire from="(50,110)" to="(80,110)"/>
     <wire from="(130,130)" to="(150,130)"/>
     <wire from="(60,220)" to="(70,220)"/>
-    <comp lib="1" loc="(200,260)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(110,260)" name="NOT Gate"/>
     <comp lib="0" loc="(50,160)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="z"/>
     </comp>
-    <comp lib="1" loc="(110,160)" name="NOT Gate"/>
-    <comp lib="1" loc="(100,60)" name="NOT Gate"/>
-    <comp lib="1" loc="(200,110)" name="AND Gate">
+    <comp lib="1" loc="(110,260)" name="NOT Gate"/>
+    <comp lib="1" loc="(200,260)" name="AND Gate">
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="1" loc="(100,210)" name="NOT Gate"/>
+    <comp lib="1" loc="(100,220)" name="NOT Gate"/>
+    <comp lib="1" loc="(110,160)" name="NOT Gate"/>
     <comp lib="0" loc="(50,70)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="x"/>
-    </comp>
-    <comp lib="1" loc="(310,140)" name="OR Gate">
-      <a name="inputs" val="2"/>
     </comp>
     <comp lib="0" loc="(350,140)" name="Pin">
       <a name="facing" val="west"/>
@@ -121,6 +112,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(50,110)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="y"/>
+    </comp>
+    <comp lib="1" loc="(310,140)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(100,70)" name="NOT Gate"/>
+    <comp lib="1" loc="(200,110)" name="AND Gate">
+      <a name="inputs" val="3"/>
     </comp>
   </circuit>
 </project>
