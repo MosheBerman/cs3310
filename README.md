@@ -13,7 +13,9 @@ The second half of the class studied 32-bit yasm assemby language. Those assignm
 About Logisim:
 ---
 
-According the developer, Logisim is no longer in development as of October 2014, (sometime during the semester when I took the course using it,) but it works well enough, and is still available for download.  There's a new version available called [Logisim Evolution](https://github.com/reds-heig/logisim-evolution). 
+~~According the developer, Logisim is no longer in development as of October 2014, (sometime during the semester when I took the course using it,) but it works well enough, and is still available for download.~~
+ 
+There's a new version available called [Logisim Evolution](https://github.com/reds-heig/logisim-evolution). 
 
 Note that you need to run it with a flag to enable the "combinational analysis" functionality. There's [an issue on GitHub](https://github.com/reds-heig/logisim-evolution/issues/5) explaining why this is.
 
