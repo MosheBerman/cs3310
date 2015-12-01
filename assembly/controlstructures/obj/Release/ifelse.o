@@ -1,0 +1,27 @@
+%line 1+1 /home/moshe/code/cs3310/assembly/controlstructures/ifelse.asm
+
+[section .text]
+[global main]
+
+main:
+ cmp eax, 0
+
+
+
+ jz ifblock
+
+
+ mov ebx, 2
+ jmp next
+
+ ifblock:
+ mov ebx, 1
+
+ next:
+
+
+
+
+
+
+
