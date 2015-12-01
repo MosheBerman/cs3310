@@ -2,7 +2,7 @@
 section .data
 
 hello:	db	'Hello World',10	;'Hello World!' plus a linefeed character.
-helloLen:	equ	$-hello 		; Length of 'Hello World!' string
+helloLen: equ $-hello 		; Length of 'Hello World!' string
 
 section	.text
     global main
