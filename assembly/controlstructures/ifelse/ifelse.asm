@@ -13,13 +13,12 @@ main:
     jmp next        ; Now it we skip the IF block
 
     ifblock:        ; This code executes if the Z register is 1
-        mov ebx, 1  ; Move 1 into the ebx register
+        mov ebx, 1 ; Move 1 into the ebx register
 
     next:           ; This always executes.
                     ; We might fall through from "ifblock"
                     ; or we might have jumped if ZF was 0
                     ; after comparing
 
-        ; Do some thing here
-
+        Int 80h     ; return
 
