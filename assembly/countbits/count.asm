@@ -6,7 +6,7 @@ global main
 
 main:
 
-    mov ax, 0C123H
+    mov ax,
     mov ebx, 0   ; bl will contain the count of ON bits
     mov ecx, 32  ; ecx is the loop counter
 
