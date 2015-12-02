@@ -14,5 +14,6 @@ main:
 
     pop eax                         ; Pop eax
 
-    mov eax, 0                      ; Push the return value onto the stack
+    mov eax, 1                      ; Push the call for return into eax
+    mov ebx, 0                      ; Put the return value into ebx
     int 80h                         ; Kernel interrupt
