@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1449025638 source:/home/moshe/code/cs3310/assembly/CPPandAssembly/main.cpp
+	<iostream>
+
+1449025578 source:/home/moshe/code/cs3310/assembly/CPPandAssembly/maxofthree.asm
+

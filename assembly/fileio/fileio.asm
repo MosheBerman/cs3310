@@ -1,9 +1,9 @@
-section  .data
-    hello: db 'Hello, world!', 10   ; Our string
-    helloLen : equ $ - hello        ; Length of our string
+section .data
+    hello:  db 'Hello, world!',10   ; Our string
+    helloLen : equ $-hello         ; Length of our string
 
- section .bss                       ; Uninitialized section
- filedesc: resw 1                   ; reserve 1 word
+section .bss                       ; Uninitialized section
+filedesc: resw 1                   ; reserve 1 word
 
  section .text
     global main
@@ -14,7 +14,7 @@ main:
     pop ebx         ; Pointer to address of paramater for the directory string
     ; The three pops are necessary to get ebx to contain the address of where the file designation is
 
-    mov ebx, [ebx + 4] ; Now, get the address of the first parameter
+    mov ebx, [ebx+4] ; Now, get the address of the first parameter
 
     mov eax, 8          ; The syscall for creat (8) is placed in eax
                         ; We already have our filename in the stack
@@ -46,6 +46,7 @@ fileWrite:
     mov eax, 4          ; Put the file write instruction for the kernel (4) into eax
     mov ecx, hello      ; Put the address of "Hello World!" into ecx
     mov edx, helloLen   ; Put the length of the message into edx
+    int 80h
 
     ; Now close the file
 
