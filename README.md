@@ -7,9 +7,13 @@ The lab assignments for the first half of this class were done in [Logisim](http
 
 The second half of the class studied 32-bit yasm assemby language. Those assignments are in the assembly directory. In there, you'll find a few subfolders, each for an assignment.
 
-- hello: Hello World in assembly.
-- controlstructures: Contains a few control structures examples.
 - argument: A lab which takes an argument and uses it.
+- controlstructures: Contains a few control structures examples.
+- countbits: bit shifts a number to count the number of bits flipped on.
+- CPPandAssembly: A lab which calls an assembly routine from C++.
+- hello: Hello World in assembly.
+
+
 
 About Logisim:
 ---
